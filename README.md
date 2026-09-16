@@ -1,7 +1,5 @@
 # LPDG Innovation Hub 2026 — Gateway Failure Prediction
 
-**Focus area: Data Science** — anomalous-behaviour detection and risk-scoring on streaming telemetry, prioritised for human decision-making.
-
 Predict which LPWAN gateway will fail (**no telemetry for ≥ 24 h**) in the next 7 days, for the smart-metering fleet across DACH + LU. Submission is `predictions.csv` (15 ranked gateways × 8 scored weeks) and the official validator confirms the format.
 
 **Result:** the improved model picks **86 of 120** slots from the engineer-flagged failing fleet, vs. **22/120** for the shipped 3-sigma baseline — a **≈ 4× improvement** in recall of genuinely failing gateways.
@@ -10,7 +8,7 @@ Predict which LPWAN gateway will fail (**no telemetry for ≥ 24 h**) in the nex
 
 ## Approach
 
-The stock baseline (`baseline_3sigma.py`) flags hours where `offline_duration_sec`, `disconnection_cnt` or `reboot_cnt` exceed a gateway's own 28-day mean by 3σ. It has one blind spot that matters a lot:
+The stock baseline (`baseline_3sigma.py`) flags hours where `offline_duration_sec`, `disconnection_cnt` or `reboot_cnt` exceed a gateway's own 28-day mean by 3σ. It has one blind spot that matters a lot here:
 
 > A gateway that is **fully offline** produces **no telemetry row at all** — it never crosses 3σ because there is nothing to flag. The worst units are invisible to the baseline by construction.
 
@@ -23,30 +21,26 @@ The solution therefore scores every gateway on four legs:
 
 All features are computed **strictly before** each scored Monday — no look-ahead.
 
-This is deliberately a **Data Science** play: the emphasis is on detecting the baseline's blind spot, engineering the right failure signal, and validating recall against real engineer judgements — not on squeezing a black-box model for the last percentage point.
-
 Read why it works in the plot commentary below.
 
 ---
-
 ## Pipeline
 
 ```
 scripts/
-├── run_pipeline.py        # build → score → validate in one command
 ├── build_features.py      # telemetry → per-(week,gateway) risk features
 ├── score.py               # features → ranking → predictions.csv
+├── run_pipeline.py        # build → score → validate in one command
 ├── baseline_3sigma.py     # official baseline (reference)
-├── validate_submission.py # official format validator
-├── evaluate.py            # recall vs engineer review labels
-└── eda.py                 # generates all 10 plots
+└── validate_submission.py # official format validator
 ```
 
 ```bash
 pip install -r requirements.txt
 
 # reproduce predictions.csv from scratch + validate
-python scripts/run_pipeline.py --data /path/to/challenge/data
+python scripts/run_pipeline.py --data path/to/challenge/data
+```
 
 ---
 
