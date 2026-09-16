@@ -39,8 +39,18 @@ scripts/
 pip install -r requirements.txt
 
 # reproduce predictions.csv from scratch + validate
-python scripts/run_pipeline.py --data path/to/challenge/data
-```
+python scripts/run_pipeline.py --data /path/to/challenge/data
+
+# run individual steps
+python scripts/build_features.py --data /path/to/challenge/data --out data/features.parquet
+python scripts/score.py --features data/features.parquet --out predictions.csv
+python scripts/validate_submission.py predictions.csv
+
+# evaluate recall against engineer labels
+python scripts/evaluate.py --features data/features.parquet --data /path/to/challenge/data
+
+# run the baseline for comparison
+python scripts/baseline_3sigma.py --data /path/to/challenge/data
 
 ---
 
