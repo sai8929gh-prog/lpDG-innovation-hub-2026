@@ -1,0 +1,121 @@
+week_start,rank,gateway_id,score,reason
+2026-02-02,1,021406F56396,9.1453,144h without telemetry last 7d; 648h no telemetry last 28d; 1h >3sigma vs 28d baseline
+2026-02-02,2,0E09A0FC838D,9.0777,145h without telemetry last 7d; 649h no telemetry last 28d; 1h >3sigma vs 28d baseline
+2026-02-02,3,0EC67072883C,9.0,168h without telemetry last 7d; 672h no telemetry last 28d
+2026-02-02,4,0E9511383176,9.0,168h without telemetry last 7d; 672h no telemetry last 28d
+2026-02-02,5,023AD5204E1C,9.0,168h without telemetry last 7d; 672h no telemetry last 28d
+2026-02-02,6,0EB2E219FEAD,9.0,168h without telemetry last 7d; 672h no telemetry last 28d
+2026-02-02,7,0EA061007895,9.0,168h without telemetry last 7d; 672h no telemetry last 28d
+2026-02-02,8,025B7AD352CF,9.0,168h without telemetry last 7d; 672h no telemetry last 28d
+2026-02-02,9,0E5F36E62604,9.0,168h without telemetry last 7d; 672h no telemetry last 28d
+2026-02-02,10,0E3BFC559D93,9.0,168h without telemetry last 7d; 672h no telemetry last 28d
+2026-02-02,11,0E3D06A07E94,9.0,168h without telemetry last 7d; 672h no telemetry last 28d
+2026-02-02,12,0E3A1141702A,9.0,168h without telemetry last 7d; 672h no telemetry last 28d
+2026-02-02,13,0283A18685C4,9.0,168h without telemetry last 7d; 672h no telemetry last 28d
+2026-02-02,14,028552FADEEC,9.0,168h without telemetry last 7d; 672h no telemetry last 28d
+2026-02-02,15,0E8F6B8B49E5,9.0,168h without telemetry last 7d; 672h no telemetry last 28d
+2026-02-09,1,0EC67072883C,9.0,168h without telemetry last 7d; 672h no telemetry last 28d
+2026-02-09,2,0EA061007895,9.0,168h without telemetry last 7d; 672h no telemetry last 28d
+2026-02-09,3,0EB2E219FEAD,9.0,168h without telemetry last 7d; 672h no telemetry last 28d
+2026-02-09,4,0E8F6B8B49E5,9.0,168h without telemetry last 7d; 672h no telemetry last 28d
+2026-02-09,5,023AD5204E1C,9.0,168h without telemetry last 7d; 672h no telemetry last 28d
+2026-02-09,6,06C0F27E810B,9.0,168h without telemetry last 7d; 672h no telemetry last 28d
+2026-02-09,7,06BA74DE3443,9.0,168h without telemetry last 7d; 672h no telemetry last 28d
+2026-02-09,8,0E9511383176,9.0,168h without telemetry last 7d; 672h no telemetry last 28d
+2026-02-09,9,0E5F36E62604,9.0,168h without telemetry last 7d; 672h no telemetry last 28d
+2026-02-09,10,028552FADEEC,9.0,168h without telemetry last 7d; 672h no telemetry last 28d
+2026-02-09,11,0283A18685C4,9.0,168h without telemetry last 7d; 672h no telemetry last 28d
+2026-02-09,12,025B7AD352CF,9.0,168h without telemetry last 7d; 672h no telemetry last 28d
+2026-02-09,13,0E3D06A07E94,9.0,168h without telemetry last 7d; 672h no telemetry last 28d
+2026-02-09,14,0E20A11BE4E6,9.0,168h without telemetry last 7d; 672h no telemetry last 28d
+2026-02-09,15,0E2BF81D64C4,9.0,168h without telemetry last 7d; 672h no telemetry last 28d
+2026-02-16,1,028552FADEEC,10.0,168h without telemetry last 7d; 672h no telemetry last 28d; engineer review: frequent failures
+2026-02-16,2,025B7AD352CF,10.0,168h without telemetry last 7d; 672h no telemetry last 28d; engineer review: frequent failures
+2026-02-16,3,0E9511383176,10.0,168h without telemetry last 7d; 672h no telemetry last 28d; engineer review: frequent failures
+2026-02-16,4,06BA74DE3443,10.0,168h without telemetry last 7d; 672h no telemetry last 28d; engineer review: frequent failures
+2026-02-16,5,06DF118D7989,10.0,168h without telemetry last 7d; 672h no telemetry last 28d; engineer review: frequent failures
+2026-02-16,6,0EE587927263,10.0,168h without telemetry last 7d; 672h no telemetry last 28d; engineer review: frequent failures
+2026-02-16,7,06903F988F32,10.0,168h without telemetry last 7d; 672h no telemetry last 28d; engineer review: frequent failures
+2026-02-16,8,0E3BFC559D93,10.0,168h without telemetry last 7d; 672h no telemetry last 28d; engineer review: frequent failures
+2026-02-16,9,0AB6B45C775A,9.8744,159h without telemetry last 7d; 458h no telemetry last 28d; 3h >3sigma vs 28d baseline; engineer review: frequent failures
+2026-02-16,10,02C0F45F31E7,9.8161,143h without telemetry last 7d; 564h no telemetry last 28d; engineer review: frequent failures
+2026-02-16,11,022C6F326E3B,9.772,144h without telemetry last 7d; 526h no telemetry last 28d; 1h >3sigma vs 28d baseline; engineer review: frequent failures
+2026-02-16,12,0A22622C2592,9.2657,80h without telemetry last 7d; 584h no telemetry last 28d; 4h >3sigma vs 28d baseline; engineer review: frequent failures
+2026-02-16,13,0A4E33E2692B,9.2295,118h without telemetry last 7d; 323h no telemetry last 28d; 25h >3sigma vs 28d baseline; engineer review: frequent failures
+2026-02-16,14,06C0D5E3BCDB,9.2247,108h without telemetry last 7d; 463h no telemetry last 28d; 6h >3sigma vs 28d baseline; engineer review: frequent failures
+2026-02-16,15,0283A18685C4,9.067,145h without telemetry last 7d; 649h no telemetry last 28d; 2h >3sigma vs 28d baseline
+2026-02-23,1,0E9511383176,10.0,168h without telemetry last 7d; 672h no telemetry last 28d; engineer review: frequent failures
+2026-02-23,2,0E3BFC559D93,10.0,168h without telemetry last 7d; 672h no telemetry last 28d; engineer review: frequent failures
+2026-02-23,3,06DF118D7989,10.0,168h without telemetry last 7d; 672h no telemetry last 28d; engineer review: frequent failures
+2026-02-23,4,0EE587927263,10.0,168h without telemetry last 7d; 672h no telemetry last 28d; engineer review: frequent failures
+2026-02-23,5,06903F988F32,10.0,168h without telemetry last 7d; 672h no telemetry last 28d; engineer review: frequent failures
+2026-02-23,6,06BA74DE3443,10.0,168h without telemetry last 7d; 672h no telemetry last 28d; engineer review: frequent failures
+2026-02-23,7,025B7AD352CF,9.8765,129h without telemetry last 7d; 633h no telemetry last 28d; 2h >3sigma vs 28d baseline; engineer review: frequent failures
+2026-02-23,8,02C0F45F31E7,9.8571,146h without telemetry last 7d; 568h no telemetry last 28d; engineer review: frequent failures
+2026-02-23,9,022C6F326E3B,9.6235,129h without telemetry last 7d; 541h no telemetry last 28d; engineer review: frequent failures
+2026-02-23,10,02D7623552C8,9.6041,131h without telemetry last 7d; 374h no telemetry last 28d; 28h >3sigma vs 28d baseline; engineer review: frequent failures
+2026-02-23,11,0A4E33E2692B,9.4954,124h without telemetry last 7d; 422h no telemetry last 28d; 26h >3sigma vs 28d baseline; engineer review: frequent failures
+2026-02-23,12,06C0D5E3BCDB,9.4307,124h without telemetry last 7d; 463h no telemetry last 28d; 5h >3sigma vs 28d baseline; engineer review: frequent failures
+2026-02-23,13,02892F51E1CB,9.4039,124h without telemetry last 7d; 445h no telemetry last 28d; 5h >3sigma vs 28d baseline; engineer review: frequent failures
+2026-02-23,14,06787526FEB3,9.3865,142h without telemetry last 7d; 342h no telemetry last 28d; 5h >3sigma vs 28d baseline; engineer review: frequent failures
+2026-02-23,15,0AB6B45C775A,9.3284,108h without telemetry last 7d; 477h no telemetry last 28d; 1h >3sigma vs 28d baseline; engineer review: frequent failures
+2026-03-02,1,0E9511383176,10.0,168h without telemetry last 7d; 672h no telemetry last 28d; engineer review: frequent failures
+2026-03-02,2,0E3BFC559D93,10.0,168h without telemetry last 7d; 672h no telemetry last 28d; engineer review: frequent failures
+2026-03-02,3,0EE587927263,10.0,168h without telemetry last 7d; 672h no telemetry last 28d; engineer review: frequent failures
+2026-03-02,4,06903F988F32,10.0,168h without telemetry last 7d; 672h no telemetry last 28d; engineer review: frequent failures
+2026-03-02,5,06BA74DE3443,10.0,168h without telemetry last 7d; 672h no telemetry last 28d; engineer review: frequent failures
+2026-03-02,6,06DF118D7989,10.0,168h without telemetry last 7d; 672h no telemetry last 28d; engineer review: frequent failures
+2026-03-02,7,02C0F45F31E7,9.824,141h without telemetry last 7d; 573h no telemetry last 28d; 1h >3sigma vs 28d baseline; engineer review: frequent failures
+2026-03-02,8,022C6F326E3B,9.7253,139h without telemetry last 7d; 541h no telemetry last 28d; engineer review: frequent failures
+2026-03-02,9,02D7623552C8,9.6297,139h without telemetry last 7d; 447h no telemetry last 28d; 9h >3sigma vs 28d baseline; engineer review: frequent failures
+2026-03-02,10,0A4E33E2692B,9.5307,132h without telemetry last 7d; 467h no telemetry last 28d; 2h >3sigma vs 28d baseline; engineer review: frequent failures
+2026-03-02,11,0AA296FF247D,9.4503,135h without telemetry last 7d; 389h no telemetry last 28d; 5h >3sigma vs 28d baseline; engineer review: frequent failures
+2026-03-02,12,065B928716CD,9.261,123h without telemetry last 7d; 353h no telemetry last 28d; 7h >3sigma vs 28d baseline; engineer review: frequent failures
+2026-03-02,13,02892F51E1CB,9.26,113h without telemetry last 7d; 439h no telemetry last 28d; 6h >3sigma vs 28d baseline; engineer review: frequent failures
+2026-03-02,14,06787526FEB3,9.0364,90h without telemetry last 7d; 381h no telemetry last 28d; 6h >3sigma vs 28d baseline; engineer review: frequent failures
+2026-03-02,15,023AD5204E1C,9.0,168h without telemetry last 7d; 672h no telemetry last 28d
+2026-03-09,1,06BA74DE3443,10.2663,147h without telemetry last 7d; 651h no telemetry last 28d; 2h >3sigma vs 28d baseline; engineer review: frequent failures
+2026-03-09,2,06DF118D7989,10.0,168h without telemetry last 7d; 672h no telemetry last 28d; engineer review: frequent failures
+2026-03-09,3,06903F988F32,10.0,168h without telemetry last 7d; 672h no telemetry last 28d; engineer review: frequent failures
+2026-03-09,4,0E3BFC559D93,10.0,168h without telemetry last 7d; 672h no telemetry last 28d; engineer review: frequent failures
+2026-03-09,5,0AA296FF247D,9.942,162h without telemetry last 7d; 477h no telemetry last 28d; 3h >3sigma vs 28d baseline; engineer review: frequent failures
+2026-03-09,6,022C6F326E3B,9.796,142h without telemetry last 7d; 554h no telemetry last 28d; engineer review: frequent failures
+2026-03-09,7,02C0F45F31E7,9.636,129h without telemetry last 7d; 559h no telemetry last 28d; engineer review: frequent failures
+2026-03-09,8,02D7623552C8,9.627,136h without telemetry last 7d; 498h no telemetry last 28d; engineer review: frequent failures
+2026-03-09,9,0A4E33E2692B,9.523,127h without telemetry last 7d; 501h no telemetry last 28d; 1h >3sigma vs 28d baseline; engineer review: frequent failures
+2026-03-09,10,065B928716CD,9.4278,122h without telemetry last 7d; 427h no telemetry last 28d; 14h >3sigma vs 28d baseline; engineer review: frequent failures
+2026-03-09,11,06C0D5E3BCDB,9.2583,115h without telemetry last 7d; 436h no telemetry last 28d; 1h >3sigma vs 28d baseline; engineer review: frequent failures
+2026-03-09,12,0E9511383176,9.1368,66h without telemetry last 7d; 570h no telemetry last 28d; 5h >3sigma vs 28d baseline; engineer review: frequent failures
+2026-03-09,13,02892F51E1CB,9.1354,105h without telemetry last 7d; 439h no telemetry last 28d; 2h >3sigma vs 28d baseline; engineer review: frequent failures
+2026-03-09,14,0AB410184143,9.0,168h without telemetry last 7d; 672h no telemetry last 28d
+2026-03-09,15,0AEF10F3A994,9.0,168h without telemetry last 7d; 672h no telemetry last 28d
+2026-03-16,1,06DF118D7989,10.0,168h without telemetry last 7d; 672h no telemetry last 28d; engineer review: frequent failures
+2026-03-16,2,06903F988F32,10.0,168h without telemetry last 7d; 672h no telemetry last 28d; engineer review: frequent failures
+2026-03-16,3,022C6F326E3B,9.8101,144h without telemetry last 7d; 554h no telemetry last 28d; engineer review: frequent failures
+2026-03-16,4,0AA296FF247D,9.7375,113h without telemetry last 7d; 501h no telemetry last 28d; 6h >3sigma vs 28d baseline; engineer review: frequent failures
+2026-03-16,5,02D7623552C8,9.6729,135h without telemetry last 7d; 541h no telemetry last 28d; engineer review: frequent failures
+2026-03-16,6,02C0F45F31E7,9.6134,129h without telemetry last 7d; 545h no telemetry last 28d; 1h >3sigma vs 28d baseline; engineer review: frequent failures
+2026-03-16,7,0A4E33E2692B,9.4673,123h without telemetry last 7d; 506h no telemetry last 28d; 1h >3sigma vs 28d baseline; engineer review: frequent failures
+2026-03-16,8,065B928716CD,9.4409,124h without telemetry last 7d; 469h no telemetry last 28d; 5h >3sigma vs 28d baseline; engineer review: frequent failures
+2026-03-16,9,0E5F36E62604,9.402,149h without telemetry last 7d; 653h no telemetry last 28d
+2026-03-16,10,0EE587927263,9.2147,91h without telemetry last 7d; 462h no telemetry last 28d; 8h >3sigma vs 28d baseline; engineer review: frequent failures
+2026-03-16,11,02892F51E1CB,9.1729,107h without telemetry last 7d; 449h no telemetry last 28d; 1h >3sigma vs 28d baseline; engineer review: frequent failures
+2026-03-16,12,0E3BFC559D93,9.1038,85h without telemetry last 7d; 589h no telemetry last 28d; 3h >3sigma vs 28d baseline; engineer review: frequent failures
+2026-03-16,13,0A182EFD3C61,9.0051,90h without telemetry last 7d; 196h no telemetry last 28d; 40h >3sigma vs 28d baseline; engineer review: frequent failures
+2026-03-16,14,0693096C4C42,9.0,168h without telemetry last 7d; 672h no telemetry last 28d; 2 field visits 90d
+2026-03-16,15,0259991BA036,9.0,168h without telemetry last 7d; 672h no telemetry last 28d
+2026-03-23,1,06DF118D7989,10.0,168h without telemetry last 7d; 672h no telemetry last 28d; engineer review: frequent failures
+2026-03-23,2,06903F988F32,10.0,168h without telemetry last 7d; 672h no telemetry last 28d; engineer review: frequent failures
+2026-03-23,3,0A4E33E2692B,9.6474,135h without telemetry last 7d; 517h no telemetry last 28d; 1h >3sigma vs 28d baseline; engineer review: frequent failures
+2026-03-23,4,065B928716CD,9.6214,135h without telemetry last 7d; 504h no telemetry last 28d; 1h >3sigma vs 28d baseline; engineer review: frequent failures
+2026-03-23,5,02C0F45F31E7,9.5896,130h without telemetry last 7d; 529h no telemetry last 28d; engineer review: frequent failures
+2026-03-23,6,02D7623552C8,9.5768,128h without telemetry last 7d; 538h no telemetry last 28d; engineer review: frequent failures
+2026-03-23,7,0AA296FF247D,9.4803,120h without telemetry last 7d; 530h no telemetry last 28d; 5h >3sigma vs 28d baseline; engineer review: frequent failures
+2026-03-23,8,060C5773A61B,9.2181,107h without telemetry last 7d; 238h no telemetry last 28d; 24h >3sigma vs 28d baseline; engineer review: frequent failures
+2026-03-23,9,0EE587927263,9.0783,99h without telemetry last 7d; 393h no telemetry last 28d; 19h >3sigma vs 28d baseline; engineer review: frequent failures
+2026-03-23,10,022C6F326E3B,9.0509,92h without telemetry last 7d; 517h no telemetry last 28d; engineer review: frequent failures
+2026-03-23,11,023AD5204E1C,9.0,168h without telemetry last 7d; 672h no telemetry last 28d
+2026-03-23,12,0259991BA036,9.0,168h without telemetry last 7d; 672h no telemetry last 28d
+2026-03-23,13,021D82B56A3F,9.0,168h without telemetry last 7d; 672h no telemetry last 28d; 2 field visits 90d
+2026-03-23,14,06C0F27E810B,9.0,168h without telemetry last 7d; 672h no telemetry last 28d
+2026-03-23,15,0AB410184143,9.0,168h without telemetry last 7d; 672h no telemetry last 28d

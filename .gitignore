@@ -1,0 +1,15 @@
+# Challenge data is confidential and provided only for this exercise.
+# Never commit it. The scripts read it from a local path via --data.
+data/
+*.parquet
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
